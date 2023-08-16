@@ -1,0 +1,22 @@
+.landing-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-grow: 1;
+    background-color: #a3bcd6;
+}
+
+.landing-container div{
+    margin: 2rem;
+    align-self: center;
+}
+
+.landing-container img{
+    width: 100%;
+}
+
+.go-to-lib-btn{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}

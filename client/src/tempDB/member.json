@@ -1,0 +1,16 @@
+{
+    "message": [
+        {
+            "memberID": 12345,
+            "name": "ABC",
+            "booksIssued": 3,
+            "oustandingFee": 100
+        },
+        {
+            "memberID": 56487,
+            "name": "XYZ",
+            "booksIssued": 3,
+            "oustandingFee": 150
+        }
+    ]
+}

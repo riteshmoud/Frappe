@@ -1,0 +1,14 @@
+.venv
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media

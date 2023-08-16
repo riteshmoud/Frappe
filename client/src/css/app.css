@@ -1,0 +1,5 @@
+.app-container{
+    background-color: #313b44;
+    display: flex;
+    height: 100vh;
+}

@@ -1,0 +1,63 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.2rem;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.table-div{
+    margin: auto;
+    align-items: center;
+    flex: 1 1 auto;
+    overflow: auto;
+    border-radius: 0.4rem;
+    width: 100%;
+}
+
+.table-div::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+  
+.table-div::-webkit-scrollbar-track {
+    background: whitesmoke;      
+}
+  
+.table-div::-webkit-scrollbar-thumb {
+    background-color: #011627;    /* color of the scroll thumb */
+  }
+
+.table-cell{
+    padding: 0 0.8rem;
+    /* background-color: #f4e7ff; */
+}
+
+.table-row:nth-child(odd){
+    /* background-color: rgba(220, 213, 213, 0.806); */
+    background-color: #efefff;
+}
+.table-row:nth-child(even){
+    /* background-color: rgba(174, 174, 174, 0.694); */
+    background-color: #d9d9e6e9;
+}
+
+.search-bar{
+    display: flex;
+    flex: 0 1 auto;
+    margin-bottom: 2rem;
+}
+
+.not-found-div{
+    width: 40%;
+    margin: auto;
+}
+
+.not-found-div img{
+    width: 100%;
+}
+.not-found-div h2{
+    margin: 2rem;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
