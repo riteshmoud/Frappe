@@ -35,8 +35,7 @@ Following things should be installed on your machine
 ## Installation
 This project has client side, server side and database
 
-#### Database setup
----
+### Database setup
 
 First, we will create database for our project
 
@@ -59,8 +58,7 @@ First, we will create database for our project
 ```
 And that's it for the database configuration.
 
-#### Server setup
----
+### Server setup
 
 - Open the folder directory containing the project in terminal. Change directory
 
@@ -99,8 +97,7 @@ The above commands will install, create and activate the virtual environment. Yo
   python manage.py runserver
 ```
 
-#### Client setup
----
+### Client setup
 
 - Change the directory to client folder and install the dependencies
 
@@ -112,3 +109,26 @@ The above commands will install, create and activate the virtual environment. Yo
 ```bash
   npm start
 ```
+
+Whooo!!!.. the project is now up and running.
+
+## Screenshots
+
+[![Screenshot-2023-08-16-211834.png](https://i.postimg.cc/sDSzs69J/Screenshot-2023-08-16-211834.png)](https://postimg.cc/ykVtTTGJ)
+
+[![Screenshot-2023-08-16-211850.png](https://i.postimg.cc/52VV0BsW/Screenshot-2023-08-16-211850.png)](https://postimg.cc/4mBM29CW)
+
+[![Screenshot-2023-08-16-211941.png](https://i.postimg.cc/CK56LdpV/Screenshot-2023-08-16-211941.png)](https://postimg.cc/67shMWQH)
+
+[![Screenshot-2023-08-16-211958.png](https://i.postimg.cc/5trKH1fQ/Screenshot-2023-08-16-211958.png)](https://postimg.cc/PLmQcgpd)
+
+[![Screenshot-2023-08-16-212042.png](https://i.postimg.cc/L6F7BHLz/Screenshot-2023-08-16-212042.png)](https://postimg.cc/XXxQn62J)
+
+[![Screenshot-2023-08-16-212124.png](https://i.postimg.cc/zXwQx9F4/Screenshot-2023-08-16-212124.png)](https://postimg.cc/LnXvXQ7V)
+
+[![Screenshot-2023-08-16-212147.png](https://i.postimg.cc/W1XHvgKn/Screenshot-2023-08-16-212147.png)](https://postimg.cc/nX9kKjnj)
+
+[![Screenshot-2023-08-16-212222.png](https://i.postimg.cc/KjS9NNkZ/Screenshot-2023-08-16-212222.png)](https://postimg.cc/R6dQCwL8)
+
+[![Screenshot-2023-08-16-212235.png](https://i.postimg.cc/3xKcVnLN/Screenshot-2023-08-16-212235.png)](https://postimg.cc/hf5s7bRR)
+
