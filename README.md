@@ -35,7 +35,7 @@ Following things should be installed on your machine
 ## Installation
 
 - Clone the project
-This project has client side, server side and database
+- This project has client side, server side and database
 
 ### Database setup
 
