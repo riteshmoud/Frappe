@@ -21,6 +21,8 @@ The Library Management System allows a librarian to keep track of books and thei
 
 **Server:** Django, Python, MySQL
 
+## Project Video
+[Watch video](https://drive.google.com/file/d/1PatEtwxkjhtofK-33DdnhpuPdBGuVGb_/view?usp=sharing) here to see the project in action.
 
 ## Prerequisites
 
