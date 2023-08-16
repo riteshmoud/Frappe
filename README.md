@@ -33,6 +33,8 @@ Following things should be installed on your machine
 ***Note***: [Click Here](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download SQL and MySQL from MySQL website. Make sure to install SQL and MYSQL workbench both.
 
 ## Installation
+
+- Clone the project
 This project has client side, server side and database
 
 ### Database setup
