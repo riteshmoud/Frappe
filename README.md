@@ -1,2 +1,81 @@
-# Frappe Library Management System
-A Library Management System allows to keep track of books and their stocks. It can issue books to members and record their transactions.
+
+## Installation
+This project has client side, server side and database
+
+#### Database setup
+---
+
+First, we will create database for our project
+
+- We must ensure that our MySQL service is up and running.
+- To do that, open Task Manager > Services
+- Search for MySQL and make sure its status is Running.
+
+
+[![Screenshot](https://i.postimg.cc/hjjbsnwK/Screenshot-2023-08-16-201148.png)](https://postimg.cc/06Tw5TP4)
+
+- Now, we open MySQL workbench and create the database.
+- If you create a new user or use default root, then update the username and password in **backend > backend > settings.py** file in the **USER** and **PASSWORD** field.
+
+[![Screenshot](https://i.postimg.cc/6Q4V7K8S/Screenshot-2023-08-16-205202.png)](https://postimg.cc/hJgQwHbb)
+
+- Now open the query file and run following query
+
+```bash
+  create database frappe_library;
+```
+And that's it for the database configuration.
+
+#### Server setup
+---
+
+- Open the folder directory containing the project in terminal. Change directory
+
+```bash
+  cd backend
+```
+
+First, we create virtual environment. Hit following commands one by one.
+
+```bash
+ pip install virtualenv
+ virtualenv .venv
+ ./.venv/Scripts/activate
+```
+
+The above commands will install, create and activate the virtual environment. You should see (.venv) at start on terminal prompt indicating that you are in virtual environment.
+
+[![Screenshot](https://i.postimg.cc/1RKNWXwP/Screenshot-2023-08-16-210228.png)](https://postimg.cc/MXvTHW9r)
+
+- Now install requirements.txt
+
+```bash
+ pip install -r requirements.txt
+```
+
+- At last, we need to migrate changes to database. For that, there are two commands to hit.
+
+```bash
+ python manage.py makemigrations
+ python manage.py migrate
+```
+
+- That's it, now it is time to run the server.
+
+```bash
+  python manage.py runserver
+```
+
+#### Client setup
+---
+
+- Change the directory to client folder and install the dependencies
+
+```bash
+  npm install
+```
+- Run the client side
+
+```bash
+  npm start
+```
