@@ -1,4 +1,37 @@
 
+# Frappe Library Management System
+
+The Library Management System allows a librarian to keep track of books and their stocks, books issued to members, book fees and major transactions.
+
+## Features
+- Import books from [Frappe API](https://frappe.io/api/method/frappe-library)
+- Add members to the database
+- Issue books to members
+- Manage return of books
+- Search books and members from the database
+- Edit and delete books or members
+- View all issued books of a member
+- Keep track of issue and return transactions
+- Keep track book fees and penalties
+
+
+## Tech Stack
+
+**Client:** JavaScript, React, MaterialUI
+
+**Server:** Django, Python, MySQL
+
+
+## Prerequisites
+
+Following things should be installed on your machine
+
+- Python
+- SQL
+- MySQL Workbench
+
+***Note***: [Click Here](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download SQL and MySQL from MySQL website. Make sure to install SQL and MYSQL workbench both.
+
 ## Installation
 This project has client side, server side and database
 
