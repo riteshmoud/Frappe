@@ -32,7 +32,7 @@ Following things should be installed on your machine
 - SQL
 - MySQL Workbench
 
-***Note***: [Click Here](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download SQL and MySQL from MySQL website. Make sure to install SQL and MYSQL workbench both.
+***Note***: [Click Here](https://dev.mysql.com/downloads/windows/installer/8.0.html) to download SQL and `snap install mysql-workbench-community` for MySQL workbench. Make sure to install SQL and MYSQL workbench both.
 
 ## Installation
 
